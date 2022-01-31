@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 1</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<body>
+    <section>
+        <header>
+            <h1 class="title_one">ENCRIPTADOR DE TEXTO</h1>
+        </header>
+    </section>
+    <main class="content">
+        <section class="section_one">
+            <h2 class="title_two">Ingresa el texto sin acento</h2>
+            <textarea class="txt-input" id="mensaje" cols="30" rows="2"
+                placeholder="&#9998; Ingrese el texto aqui"></textarea>
+            <div class="btn_content">
+                <input class="btn_one" type="submit" value="Encriptar" id="btn_encriptar" onclick="Encriptar()">
+                <input class="btn_one" type="submit" value="Desencriptar" id="btn_desencriptar" onclick="Desencriptar()">
+            </div>
+
+        </section>
+
+        <section class="section_two">
+            <h2 class="title_three">Resultado</h2>
+            <textarea class="txt-input" cols="30" rows="2" id="resultado"></textarea>
+        <div class="btn_content_copy">  
+            <input class="btn_copy" type="submit" value="Copiar" onclick="Copiar()">
+        </div>  
+        </section>
+    </main>
+    <footer>
+        <p class="derechos">©2022 Dilson Alexander Cruz Nivia | Todos los derechos reservados.</p>
+    </footer>
+    <script src="script_one.js" async="async"></script>
+</body>
+
+</html>
